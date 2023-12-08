@@ -1,6 +1,6 @@
 const capitalize = (text) => {
   if (text === '') {
-    return '';
+    return '1';
   }
   const firstChar = text[0].toUpperCase();
   const restSubstring = text.slice(1);
